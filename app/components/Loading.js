@@ -17,7 +17,7 @@ class Loading extends React.Component {
 		};
 	}
 	componentDidMount() {
-		const { test, speed } = this.props
+		const { text, speed } = this.props
 
 		const stopper = text + '...';
 
